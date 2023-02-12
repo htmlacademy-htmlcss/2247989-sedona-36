@@ -52,6 +52,9 @@ body {
 
 .main-index {
   color: #000000;
+}
+
+.hero {
   background-image: url("../images/mountains.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;

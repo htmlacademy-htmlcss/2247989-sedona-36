@@ -33,54 +33,46 @@ body {
 
 .page-header {
   display: flex;
-  flex-wrap: wrap;
+  color: #000000;
+}
+
+.navigation {
+  display: flex;
   width: 1200px;
   margin: 0 auto;
-  padding: 0;
-  color: #000000;
-  background: #FFFFFF;
-  align-items: center;
-  margin-bottom: -11px;
-}
-
-.header-left {
-  display: flex;
-  /*align-items: center;
-  width: 500px;
-  margin-right: auto;
-  margin-left: 70px;*/
-}
-
-.logo {
-  margin-right: 30px;
-  margin-left: 70px;
 }
 
 .navigation-list {
   display: flex;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
+  flex-wrap: wrap;
   width: 500px;
-  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .navigation-link {
+  display: block;
   padding: 20px 16px;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  text-transform: capitalize;
-  text-align: center;
   color: #000000;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
-.header-right {
+.navigation-logo {
+  display: flex;
+  width: 140px;
+  margin-left: 70px;
+}
+
+.navigation-right  {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 268px;
+  max-width: 268px;
   margin-left: auto;
   margin-right: 70px;
 }
@@ -88,10 +80,10 @@ body {
 .header-ico {
   display: block;
   padding: 22px 12px;
+
 }
 
 .button-want {
-  display: block;
   padding: 8px 34px;
   font-size: 16px;
   line-height: 20px;

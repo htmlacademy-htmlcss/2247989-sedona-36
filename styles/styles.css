@@ -39,18 +39,32 @@ body {
   padding: 0;
   color: #000000;
   background: #FFFFFF;
+  align-items: center;
+  margin-bottom: -11px;
 }
 
 .header-left {
   display: flex;
-  align-items: center;
-  width: 650px;
+  /*align-items: center;
+  width: 500px;
   margin-right: auto;
-  margin-left: 70px;
+  margin-left: 70px;*/
 }
+
 .logo {
   margin-right: 30px;
+  margin-left: 70px;
 }
+
+.navigation-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 500px;
+  margin-right: auto;
+}
+
 .navigation-link {
   padding: 20px 16px;
   font-weight: 700;
@@ -88,6 +102,7 @@ body {
   color: #FFFFFF;
   background: #756157;
   border-radius: 4px;
+  border: 0;
 }
 
 .main-index {
